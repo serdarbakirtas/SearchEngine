@@ -1,0 +1,6 @@
+framework module Vendors {
+  umbrella header "Vendors-umbrella.h"
+
+  export *
+  module * { export * }
+}

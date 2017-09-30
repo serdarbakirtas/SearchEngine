@@ -1,0 +1,71 @@
+PODS:
+  - Alamofire (4.5.1)
+  - CVKHierarchySearcher (0.2.0)
+  - Moya (9.0.0):
+    - Moya/Core (= 9.0.0)
+  - Moya/Core (9.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - R.swift (3.3.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
+  - Result (3.2.4)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - Signals (4.0.0)
+  - SwiftyJSON (3.1.4)
+  - Vendors (1.0.0):
+    - Vendors/Core (= 1.0.0)
+  - Vendors/Core (1.0.0):
+    - Vendors/Extensions
+    - Vendors/Signals+
+    - Vendors/UIKit+
+  - Vendors/Extensions (1.0.0):
+    - CVKHierarchySearcher
+    - SwiftyJSON
+    - Vendors/trace
+  - Vendors/NSDate+TimeAgo (1.0.0):
+    - Vendors/SwiftyJSON+
+  - Vendors/Signals+ (1.0.0):
+    - Signals
+    - Vendors/Extensions
+  - Vendors/SwiftyJSON+ (1.0.0):
+    - Alamofire
+    - SwiftyJSON
+    - Vendors/trace
+  - Vendors/trace (1.0.0)
+  - Vendors/UIKit+ (1.0.0):
+    - Vendors/Extensions
+
+DEPENDENCIES:
+  - Moya
+  - R.swift
+  - SDWebImage (~> 4.1)
+  - Vendors (from `https://github.com/away4m/Vendors`)
+  - Vendors/NSDate+TimeAgo (from `https://github.com/away4m/Vendors`)
+
+EXTERNAL SOURCES:
+  Vendors:
+    :git: https://github.com/away4m/Vendors
+
+CHECKOUT OPTIONS:
+  Vendors:
+    :commit: fa87ebfc7af55a5048ca4a83460cf670a0e5d0bf
+    :git: https://github.com/away4m/Vendors
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CVKHierarchySearcher: 7be8d3bcbcc6f86ff07f785e6c632b5e40da2553
+  Moya: cf5e6ee93af526532f92614004b8ad2ea60fd845
+  R.swift: bde9704d50ff36820f49e266bc88ef545e1e9b36
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  Signals: 6d818e1b7c39f2bf61cfef30bf314329990d1853
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Vendors: b6e09d6cb75e32c920b9fe29ddb2c185c5982b33
+
+PODFILE CHECKSUM: f175ee32f3c98be2cc28e8463641d5134235e894
+
+COCOAPODS: 1.2.1

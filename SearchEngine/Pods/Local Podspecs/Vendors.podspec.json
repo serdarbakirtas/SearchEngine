@@ -1,0 +1,198 @@
+{
+  "name": "Vendors",
+  "version": "1.0.0",
+  "summary": "General purpose Swift 3 helper clasess and extensions to ease development",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/away4m/Vendors",
+  "license": {
+    "type": "BSD"
+  },
+  "authors": {
+    "Ali Kiran": "away4m@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/away4m/Vendors",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "cocoapods_version": ">= 1.1.1",
+  "public_header_files": "Pod/Vendors/**/*.h",
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.0"
+  },
+  "module_name": "Vendors",
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "Vendors/Extensions": [
+
+        ],
+        "Vendors/UIKit+": [
+
+        ],
+        "Vendors/Signals+": [
+
+        ]
+      }
+    },
+    {
+      "name": "Signals+",
+      "dependencies": {
+        "Signals": [
+
+        ],
+        "Vendors/Extensions": [
+
+        ]
+      },
+      "source_files": "Vendors/Signals+/**/*"
+    },
+    {
+      "name": "SDWebImage+",
+      "source_files": "Vendors/SDWebImage+/**/*",
+      "dependencies": {
+        "SDWebImage": [
+
+        ]
+      }
+    },
+    {
+      "name": "Extensions",
+      "dependencies": {
+        "Vendors/trace": [
+
+        ],
+        "SwiftyJSON": [
+
+        ],
+        "CVKHierarchySearcher": [
+
+        ]
+      },
+      "source_files": "Vendors/Extensions/**/*"
+    },
+    {
+      "name": "Kingfisher+",
+      "source_files": "Vendors/Kingfisher+/**/*",
+      "dependencies": {
+        "Kingfisher": [
+
+        ]
+      }
+    },
+    {
+      "name": "UIKit+",
+      "dependencies": {
+        "Vendors/Extensions": [
+
+        ]
+      },
+      "source_files": "Vendors/UIKit+/**/*"
+    },
+    {
+      "name": "SwiftyJSON+",
+      "dependencies": {
+        "Vendors/trace": [
+
+        ],
+        "SwiftyJSON": [
+
+        ],
+        "Alamofire": [
+
+        ]
+      },
+      "source_files": "Vendors/SwiftyJSON+/**/*"
+    },
+    {
+      "name": "trace",
+      "source_files": "Vendors/trace/**/*"
+    },
+    {
+      "name": "KeyboardObserver",
+      "dependencies": {
+        "Vendors/Signals+": [
+
+        ]
+      },
+      "source_files": "Vendors/KeyboardObserver/**/*"
+    },
+    {
+      "name": "PickerController",
+      "dependencies": {
+        "Vendors/SwiftyJSON+": [
+
+        ],
+        "SnapKit": [
+
+        ]
+      },
+      "source_files": "Vendors/PickerController/**/*"
+    },
+    {
+      "name": "JMTextView",
+      "source_files": "Vendors/JMTextView/**/*"
+    },
+    {
+      "name": "StringFormatter",
+      "source_files": "Vendors/StringFormatter/**/*"
+    },
+    {
+      "name": "Lorem",
+      "source_files": "Vendors/Lorem/**/*"
+    },
+    {
+      "name": "SYTimer",
+      "source_files": "Vendors/SYTimer/**/*"
+    },
+    {
+      "name": "Moya+",
+      "source_files": "Vendors/Moya+/**/*",
+      "dependencies": {
+        "Vendors/UIKit+": [
+
+        ],
+        "Vendors/SwiftyJSON+": [
+
+        ],
+        "Moya": [
+
+        ],
+        "Vendors/AMHudView": [
+
+        ]
+      }
+    },
+    {
+      "name": "AMHudView",
+      "source_files": "Vendors/AMHudView/**/*"
+    },
+    {
+      "name": "ImagePickerSheetController",
+      "source_files": "Vendors/ImagePickerSheetController/**/*",
+      "frameworks": "Photos"
+    },
+    {
+      "name": "NSDate+TimeAgo",
+      "dependencies": {
+        "Vendors/SwiftyJSON+": [
+
+        ]
+      },
+      "source_files": "Vendors/NSDate+TimeAgo/**/*",
+      "resource_bundles": {
+        "NSDate-TimeAgo": [
+          "Resources/NSDate-TimeAgo/**/*.lproj"
+        ]
+      }
+    }
+  ]
+}
