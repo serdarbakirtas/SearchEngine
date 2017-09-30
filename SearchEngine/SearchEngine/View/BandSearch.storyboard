@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pId-V7-QZn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Band Search View Controller-->
+        <scene sceneID="ydw-Lc-Lb7">
+            <objects>
+                <viewController id="W0f-ZK-oPu" customClass="BandSearchViewController" customModule="BlacklaneChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fwy-DG-EFg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="fNl-B1-lhK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="7Ze-xE-mFq"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nQj-3Y-a1q">
+                                <rect key="frame" x="0.0" y="56" width="375" height="547"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BandSearchCell" id="Z9n-qB-OWK" customClass="BandSearchCell" customModule="BlacklaneChallenge" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Z9n-qB-OWK" id="pds-Px-aXH">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFL-Vl-odv">
+                                                    <rect key="frame" x="8" y="8" width="359" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblTitle" destination="IFL-Vl-odv" id="qXa-JP-bMd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nQj-3Y-a1q" firstAttribute="leading" secondItem="jSS-Oc-wIE" secondAttribute="leading" id="6JE-53-AcU"/>
+                            <constraint firstItem="fNl-B1-lhK" firstAttribute="leading" secondItem="jSS-Oc-wIE" secondAttribute="leading" id="D6K-sG-2hE"/>
+                            <constraint firstItem="fNl-B1-lhK" firstAttribute="trailing" secondItem="jSS-Oc-wIE" secondAttribute="trailing" id="HsA-O2-4Oq"/>
+                            <constraint firstItem="fNl-B1-lhK" firstAttribute="top" secondItem="fwy-DG-EFg" secondAttribute="top" id="Ign-A2-rr1"/>
+                            <constraint firstItem="nQj-3Y-a1q" firstAttribute="top" secondItem="fNl-B1-lhK" secondAttribute="bottom" id="cdw-z2-vLu"/>
+                            <constraint firstItem="nQj-3Y-a1q" firstAttribute="trailing" secondItem="jSS-Oc-wIE" secondAttribute="trailing" id="lvi-07-q8O"/>
+                            <constraint firstItem="nQj-3Y-a1q" firstAttribute="bottom" secondItem="jSS-Oc-wIE" secondAttribute="bottom" id="wZK-OM-puF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jSS-Oc-wIE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2ai-gX-fmQ">
+                        <barButtonItem key="backBarButtonItem" title=" " id="QHZ-IL-KuI"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bandSearchViewModel" destination="aoH-gd-keJ" id="AL2-o3-N5C"/>
+                        <outlet property="searchBar" destination="fNl-B1-lhK" id="gud-Lz-Q9y"/>
+                        <outlet property="tableView" destination="nQj-3Y-a1q" id="vtx-lR-CqB"/>
+                        <outlet property="tableViewBottomConstraint" destination="wZK-OM-puF" id="eyS-yv-tA5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vE0-Le-n7K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="aoH-gd-keJ" customClass="BandSearchViewModel" customModule="BlacklaneChallenge" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="946" y="116"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tyE-ee-cDN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pId-V7-QZn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="zpk-31-Npm">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.12156862745098039" green="0.12156862745098039" blue="0.12156862745098039" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="W0f-ZK-oPu" kind="relationship" relationship="rootViewController" id="hH6-8H-1pq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V0D-QJ-MgZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.19999999999999" y="116.94152923538232"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</document>
