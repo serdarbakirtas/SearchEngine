@@ -21,6 +21,18 @@
 		8AE8E17D1F804BF50028AADF /* MoyaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E1761F80495B0028AADF /* MoyaResponse.swift */; };
 		8AE8E17E1F804BF50028AADF /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E1771F80495B0028AADF /* ServiceProvider.swift */; };
 		8AE8E17F1F804BFA0028AADF /* AMHudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E1791F80495B0028AADF /* AMHudView.swift */; };
+		8AE8E1911F804E0B0028AADF /* BandDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E1861F804D980028AADF /* BandDetailViewController.swift */; };
+		8AE8E1921F804E0B0028AADF /* BandSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E1881F804D980028AADF /* BandSearchViewController.swift */; };
+		8AE8E1931F804E0E0028AADF /* BandDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E1891F804DB80028AADF /* BandDetailModel.swift */; };
+		8AE8E1941F804E0E0028AADF /* BandSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E18A1F804DB80028AADF /* BandSearchModel.swift */; };
+		8AE8E1951F804E140028AADF /* AlbumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E18D1F804DC40028AADF /* AlbumService.swift */; };
+		8AE8E1961F804E140028AADF /* BandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E18B1F804DC30028AADF /* BandService.swift */; };
+		8AE8E1971F804E140028AADF /* BlacklaneServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E18E1F804DC40028AADF /* BlacklaneServiceProvider.swift */; };
+		8AE8E1981F804E140028AADF /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E18C1F804DC30028AADF /* SearchService.swift */; };
+		8AE8E19C1F804E630028AADF /* BandDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E19A1F804E510028AADF /* BandDetailViewModel.swift */; };
+		8AE8E19D1F804E630028AADF /* BandSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE8E19B1F804E510028AADF /* BandSearchViewModel.swift */; };
+		8AE8E19E1F804FF90028AADF /* BandSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8E1871F804D980028AADF /* BandSearch.storyboard */; };
+		8AE8E19F1F804FFD0028AADF /* BandDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE8E1851F804D980028AADF /* BandDetail.storyboard */; };
 		9A1707C23AF8DC46A1F5483B /* Pods_SearchEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8562FFC08D46FE5F2CB223 /* Pods_SearchEngine.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,8 +75,18 @@
 		8AE8E1761F80495B0028AADF /* MoyaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaResponse.swift; sourceTree = "<group>"; };
 		8AE8E1771F80495B0028AADF /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 		8AE8E1791F80495B0028AADF /* AMHudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMHudView.swift; sourceTree = "<group>"; };
-		8AE8E17A1F804BC90028AADF /* BandSearch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BandSearch.storyboard; sourceTree = "<group>"; };
-		8AE8E17B1F804BC90028AADF /* BandDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BandDetail.storyboard; sourceTree = "<group>"; };
+		8AE8E1851F804D980028AADF /* BandDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BandDetail.storyboard; sourceTree = "<group>"; };
+		8AE8E1861F804D980028AADF /* BandDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandDetailViewController.swift; sourceTree = "<group>"; };
+		8AE8E1871F804D980028AADF /* BandSearch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BandSearch.storyboard; sourceTree = "<group>"; };
+		8AE8E1881F804D980028AADF /* BandSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandSearchViewController.swift; sourceTree = "<group>"; };
+		8AE8E1891F804DB80028AADF /* BandDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandDetailModel.swift; sourceTree = "<group>"; };
+		8AE8E18A1F804DB80028AADF /* BandSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandSearchModel.swift; sourceTree = "<group>"; };
+		8AE8E18B1F804DC30028AADF /* BandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandService.swift; sourceTree = "<group>"; };
+		8AE8E18C1F804DC30028AADF /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		8AE8E18D1F804DC40028AADF /* AlbumService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumService.swift; sourceTree = "<group>"; };
+		8AE8E18E1F804DC40028AADF /* BlacklaneServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlacklaneServiceProvider.swift; sourceTree = "<group>"; };
+		8AE8E19A1F804E510028AADF /* BandDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandDetailViewModel.swift; sourceTree = "<group>"; };
+		8AE8E19B1F804E510028AADF /* BandSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandSearchViewModel.swift; sourceTree = "<group>"; };
 		A0453FC2AA2461CF50745596 /* Pods-SearchEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchEngine.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchEngine/Pods-SearchEngine.release.xcconfig"; sourceTree = "<group>"; };
 		FB8562FFC08D46FE5F2CB223 /* Pods_SearchEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,8 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				8AE8E16D1F80481E0028AADF /* Model */,
-				8AE8E1701F80481F0028AADF /* View */,
-				8AE8E1711F80481F0028AADF /* ViewModel */,
+				8AE8E1841F804D980028AADF /* Views */,
+				8AE8E1991F804E500028AADF /* ViewModel */,
 				8AE8E1661F8047BA0028AADF /* Config */,
 				8AE8E16E1F80481E0028AADF /* Service */,
 				8AE8E16F1F80481E0028AADF /* Utils */,
@@ -176,6 +198,8 @@
 		8AE8E16D1F80481E0028AADF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8AE8E1891F804DB80028AADF /* BandDetailModel.swift */,
+				8AE8E18A1F804DB80028AADF /* BandSearchModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +207,10 @@
 		8AE8E16E1F80481E0028AADF /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				8AE8E18D1F804DC40028AADF /* AlbumService.swift */,
+				8AE8E18B1F804DC30028AADF /* BandService.swift */,
+				8AE8E18E1F804DC40028AADF /* BlacklaneServiceProvider.swift */,
+				8AE8E18C1F804DC30028AADF /* SearchService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -194,22 +222,6 @@
 				8AE8E1741F80495B0028AADF /* Moya+ */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		8AE8E1701F80481F0028AADF /* View */ = {
-			isa = PBXGroup;
-			children = (
-				8AE8E17B1F804BC90028AADF /* BandDetail.storyboard */,
-				8AE8E17A1F804BC90028AADF /* BandSearch.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		8AE8E1711F80481F0028AADF /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		8AE8E1741F80495B0028AADF /* Moya+ */ = {
@@ -228,6 +240,26 @@
 				8AE8E1791F80495B0028AADF /* AMHudView.swift */,
 			);
 			path = AMHudView;
+			sourceTree = "<group>";
+		};
+		8AE8E1841F804D980028AADF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AE8E1851F804D980028AADF /* BandDetail.storyboard */,
+				8AE8E1861F804D980028AADF /* BandDetailViewController.swift */,
+				8AE8E1871F804D980028AADF /* BandSearch.storyboard */,
+				8AE8E1881F804D980028AADF /* BandSearchViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8AE8E1991F804E500028AADF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8AE8E19A1F804E510028AADF /* BandDetailViewModel.swift */,
+				8AE8E19B1F804E510028AADF /* BandSearchViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		AA22DF740439DCDD03A8869E /* Frameworks */ = {
@@ -349,8 +381,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE8E16A1F8047C10028AADF /* APP_DEBUG_CONFIG.plist in Resources */,
+				8AE8E19E1F804FF90028AADF /* BandSearch.storyboard in Resources */,
 				8A1EDEC81F8044AE003597BA /* LaunchScreen.storyboard in Resources */,
 				8AE8E16B1F8047C50028AADF /* APP_RELEASE_CONFIG.plist in Resources */,
+				8AE8E19F1F804FFD0028AADF /* BandDetail.storyboard in Resources */,
 				8A1EDEC51F8044AE003597BA /* Assets.xcassets in Resources */,
 				8A1EDEC31F8044AE003597BA /* Main.storyboard in Resources */,
 			);
@@ -425,13 +459,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE8E1911F804E0B0028AADF /* BandDetailViewController.swift in Sources */,
 				8AE8E17E1F804BF50028AADF /* ServiceProvider.swift in Sources */,
 				8AE8E17D1F804BF50028AADF /* MoyaResponse.swift in Sources */,
 				8A1EDEBE1F8044AE003597BA /* AppDelegate.swift in Sources */,
 				8AE8E16C1F8047C90028AADF /* AppConfig.swift in Sources */,
+				8AE8E1961F804E140028AADF /* BandService.swift in Sources */,
+				8AE8E1941F804E0E0028AADF /* BandSearchModel.swift in Sources */,
 				8AE8E17C1F804BF50028AADF /* GlobalServiceDomain.swift in Sources */,
+				8AE8E19C1F804E630028AADF /* BandDetailViewModel.swift in Sources */,
+				8AE8E1921F804E0B0028AADF /* BandSearchViewController.swift in Sources */,
 				8AE8E1731F8048670028AADF /* R.generated.swift in Sources */,
 				8AE8E17F1F804BFA0028AADF /* AMHudView.swift in Sources */,
+				8AE8E19D1F804E630028AADF /* BandSearchViewModel.swift in Sources */,
+				8AE8E1931F804E0E0028AADF /* BandDetailModel.swift in Sources */,
+				8AE8E1981F804E140028AADF /* SearchService.swift in Sources */,
+				8AE8E1971F804E140028AADF /* BlacklaneServiceProvider.swift in Sources */,
+				8AE8E1951F804E140028AADF /* AlbumService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

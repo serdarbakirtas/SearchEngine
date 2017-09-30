@@ -12,7 +12,7 @@
         <!--Band Search View Controller-->
         <scene sceneID="ydw-Lc-Lb7">
             <objects>
-                <viewController id="W0f-ZK-oPu" customClass="BandSearchViewController" customModule="BlacklaneChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="W0f-ZK-oPu" customClass="BandSearchViewController" customModule="SearchEngine" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fwy-DG-EFg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
