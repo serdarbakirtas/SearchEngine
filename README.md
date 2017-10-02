@@ -34,4 +34,4 @@ SwiftyJSON
 
 used album_title endpoint for search
 
-<img src="https://image.prntscr.com/image/67tTWWGqSUa97y0zFHf32w.png" alt="HTML5 Icon" width="375" height="667">
+<img src="https://image.prntscr.com/image/JAksG4WuTh_6x-qw60YuaQ.png" alt="HTML5 Icon" width="375" height="667">
