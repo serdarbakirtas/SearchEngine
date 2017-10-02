@@ -21,7 +21,7 @@ class BandSearchViewController: UIViewController, UITableViewDelegate, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Band Name Search"
+        title = "Band Title Search"
 
         tableView.delegate = self
         tableView.dataSource = self
