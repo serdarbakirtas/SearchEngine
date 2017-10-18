@@ -1,6 +1,6 @@
 //
 //  AppConfig.swift
-//  BlacklaneChallenge
+//  SearchEngine
 //
 //  Created by Hasan Bakirtas on 28/09/2017.
 //  Copyright © 2017 Hasan Serdar Bakirtas. All rights reserved.

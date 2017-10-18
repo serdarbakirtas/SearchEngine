@@ -5,7 +5,7 @@
 	<key>backend</key>
 	<string>http://em.wemakesites.net</string>
 	<key>appName</key>
-	<string>BlacklaneChallenge</string>
+	<string>SearchEngine</string>
 	<key>forceUpdate</key>
 	<true/>
 </dict>
